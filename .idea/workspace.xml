@@ -23,8 +23,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/nextpage/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+            <state relative-caret-position="28">
+              <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -79,11 +79,11 @@
       <list>
         <option value="$PROJECT_DIR$/themes/hexo-theme-next-master/_config.yml" />
         <option value="$PROJECT_DIR$/themes/next/_config.yml" />
-        <option value="$PROJECT_DIR$/themes/nextpage/_config.yml" />
         <option value="$PROJECT_DIR$/public/atom.xml" />
         <option value="$PROJECT_DIR$/source/_posts/hello-world.md" />
         <option value="$PROJECT_DIR$/source/_posts/newHexoDemo.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/themes/nextpage/_config.yml" />
       </list>
     </option>
   </component>
@@ -230,12 +230,12 @@
       <updated>1588757017658</updated>
       <workItem from="1588757020863" duration="3160000" />
       <workItem from="1588986916504" duration="1998000" />
-      <workItem from="1589177951479" duration="13469000" />
+      <workItem from="1589177951479" duration="15314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18627000" />
+    <option name="totallyTimeSpent" value="20472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -363,8 +363,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/nextpage/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+        <state relative-caret-position="28">
+          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
         </state>
       </provider>
     </entry>
