@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-05-12T02:40:38.703Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2020/05/12/hello-world/"/>
+    <id>http://yoursite.com/2020/05/12/hello-world/</id>
+    <published>2020-05-12T02:40:38.703Z</published>
+    <updated>2020-05-12T02:40:38.703Z</updated>
+    
+    <summary type="html">
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>newHexoDemo</title>
+    <link href="http://yoursite.com/2020/05/12/newHexoDemo/"/>
+    <id>http://yoursite.com/2020/05/12/newHexoDemo/</id>
+    <published>2020-05-12T01:39:05.000Z</published>
+    <updated>2020-05-12T01:39:05.386Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
