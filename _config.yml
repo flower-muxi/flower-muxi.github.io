@@ -8,7 +8,7 @@ subtitle: ''
 description: ''
 keywords:
 author: John Doe
-language: zh-Hans
+language: zh-CN
 timezone: ''
 
 # URL
@@ -94,13 +94,12 @@ ignore:
 # Plugins: https://hexo.io/plugins/
 # Themes: https://hexo.io/themes/
 #plugins:hexo-generate-feed
-theme: nextpage
+theme: nextT
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:flower-muxi/flower-muxi.github.io.git ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVzjpyqxreW1m1sg1lmN0EFlf3qcAqYnTS6gxpuLy5TePlBo9CeW6izhFUcPpqpVQGGpyln76ejrUuCjfPQEgmMbm3dDY71Fbm0OB21EPmpYk/2hdWySQLSN2jfgPkjboMAzOtTRuYTsdxhLfPukwwpFhMBtj7dEQR2DNI72NQEmeS5MUbKcJNXYr1MEyAKrgQnFEcqy1SPTaqlw4xgDjwVmKsHUk0nD71LGpE/BEqSqSfUsYpKO4c+6q+nES76eIPqmw+P5nUGqyTVrBmoXptVdvvQ5XgUxmkkVjRPvweh+Xnxks0RY508ZgBZ+0rQBrQEmmVqtdy2tqb1mWA9yMn muxi@yscredit.com
-
+  repo: git@github.com:flower-muxi/flower-muxi.github.io.git
   branch: master
 
