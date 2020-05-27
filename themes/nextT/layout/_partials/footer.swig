@@ -11,7 +11,6 @@
 {% endif %}
 <div class="theme-info">
   <div>
-
     <span>
       <i class="fa fa-heart" style="color:red"></i>
       <span>flower-muxi</span>

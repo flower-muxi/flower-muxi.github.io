@@ -52,7 +52,7 @@ language_switcher: false
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  # since: 2020
 
   # Icon between year and copyright info.
   icon:
@@ -65,6 +65,7 @@ footer:
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
   copyright:
+    enabled: true
 
   # Powered by Hexo & NexT
   powered: true
@@ -736,7 +737,7 @@ busuanzi_count:
 algolia_search:
   enable: false
   hits:
-    per_page: 10
+    per_page: 5
   labels:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}"

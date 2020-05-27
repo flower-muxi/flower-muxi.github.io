@@ -36,6 +36,5 @@
 
     </header>
   </article>
-
 {%- endfor %}
 {% endmacro %}

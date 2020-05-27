@@ -229,8 +229,13 @@
       {%- if theme.follow_me %}
         {{ partial('_partials/post/post-followme.swig', {}, {cache: theme.cache.enable}) }}
       {%- endif %}
-
+        <div>
+          {% if not is_index %}
+            {% include 'my-copyright.swig' %}
+          {% endif %}
+        </div>
       <footer class="post-footer">
+        
         {%- if post.tags and post.tags.length %}
           {%- if theme.tag_icon %}
             {%- set tag_indicate = '<i class="fa fa-tag"></i>' %}
