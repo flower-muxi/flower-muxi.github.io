@@ -64,8 +64,8 @@ footer:
     color: "#ff0000"
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
-  copyright:
-    enabled: true
+  copyright: 
+  enabled: true
 
   # Powered by Hexo & NexT
   powered: true
@@ -89,7 +89,7 @@ footer:
 creative_commons:
   license: by-nc-sa
   sidebar: false
-  post: false
+  post: true
   language: zh-CN
 
 
@@ -107,6 +107,24 @@ scheme: Gemini
 # Online contact 
 daovoice: true
 daovoice_app_id: 0e02dbea
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-tororo
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true #手机上不显示
+
 
 
 # Dark Mode
@@ -130,7 +148,7 @@ menu:
   archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
-  commonweal: /404/ || fa fa-heartbeat
+  # commonweal: /404/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -746,7 +764,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
