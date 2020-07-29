@@ -1,33 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2020/05/12/hello-world/"/>
-      <url>/2020/05/12/hello-world/</url>
-      
-        <content type="html"><![CDATA[<h5>这是我的第一篇博客<h5/>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>newHexoDemo</title>
-      <link href="/2020/05/12/newHexoDemo/"/>
-      <url>/2020/05/12/newHexoDemo/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/05/12/hello-world/</url>
+    <content><![CDATA[<h5>这是我的第一篇博客<h5/>
+]]></content>
+  </entry>
+  <entry>
+    <title>ECMAScript 2020新特性</title>
+    <url>/2020/05/12/newHexoDemo/</url>
+    <content><![CDATA[]]></content>
+  </entry>
 </search>
