@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-29T07:39:02.908Z</updated>
+  <updated>2020-07-29T09:35:03.646Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,17 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>newPages</title>
-    <link href="http://yoursite.com/2020/07/29/newPages/"/>
-    <id>http://yoursite.com/2020/07/29/newPages/</id>
-    <published>2020-07-29T07:37:28.000Z</published>
-    <updated>2020-07-29T07:39:02.908Z</updated>
+    <title>typeScript</title>
+    <link href="http://yoursite.com/2020/07/29/typeScript-1/"/>
+    <id>http://yoursite.com/2020/07/29/typeScript-1/</id>
+    <published>2020-07-29T08:36:11.000Z</published>
+    <updated>2020-07-29T09:35:03.646Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://bpic.588ku.com/illus_water_img/19/09/25/58f73c994d4a4720b0b6509e076c182f.jpg!/fw/750/quality/99/unsharp/true/compress/true" alt=""></p><a id="more"></a><h4 id="typeScript自动编译"><a href="#typeScript自动编译" class="headerlink" title="typeScript自动编译"></a>typeScript自动编译</h4><p>第一步  tsc –init 生成tsconfig.json 修改 “outDir”：”./js”  </br><br>第二步 点击终端-&gt;运行任务，tsc:监视</p><h4 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h4><h6 id="布尔类型"><a href="#布尔类型" class="headerlink" title="布尔类型"></a>布尔类型</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var flag:boolean&#x3D;true;</span><br></pre></td></tr></table></figure><h6 id="数值类型"><a href="#数值类型" class="headerlink" title="数值类型"></a>数值类型</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var flag:string&#x3D;&#39;muxi&#39;;</span><br></pre></td></tr></table></figure><h6 id="数组类型"><a href="#数组类型" class="headerlink" title="数组类型"></a>数组类型</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var arr:Array&lt;string&gt;&#x3D;[&#39;1&#39;,&#39;2&#39;,&#39;3&#39;];</span><br><span class="line">var arr2:number[]&#x3D;[1,2,3]   &#x2F;&#x2F;number也可以一换成string，boolean</span><br><span class="line">var arr3:any[]&#x3D;[&#39;11&#39;,222,true]</span><br></pre></td></tr></table></figure><h6 id="枚举类型"><a href="#枚举类型" class="headerlink" title="枚举类型"></a>枚举类型</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">enum Color  &#123; red&#x3D;1,green&#x3D;2,blue&#x3D;3,black&#x3D;4 &#125;</span><br><span class="line">let s:Color &#x3D; Color.red;</span><br></pre></td></tr></table></figure><h6 id="any类型"><a href="#any类型" class="headerlink" title="any类型"></a>any类型</h6><h6 id="undefined和null-（never数据类型的子类型）"><a href="#undefined和null-（never数据类型的子类型）" class="headerlink" title="undefined和null  （never数据类型的子类型）"></a>undefined和null  （never数据类型的子类型）</h6><h6 id="void-ts中的void表示没有任何类型，一般用于定义方法的时候方法没有返回值"><a href="#void-ts中的void表示没有任何类型，一般用于定义方法的时候方法没有返回值" class="headerlink" title="void (ts中的void表示没有任何类型，一般用于定义方法的时候方法没有返回值)"></a>void (ts中的void表示没有任何类型，一般用于定义方法的时候方法没有返回值)</h6><h6 id="never类型-其他类型（代表从不会出现的值）"><a href="#never类型-其他类型（代表从不会出现的值）" class="headerlink" title="never类型  其他类型（代表从不会出现的值）"></a>never类型  其他类型（代表从不会出现的值）</h6><h4 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h4><h6 id="函数声明"><a href="#函数声明" class="headerlink" title="函数声明"></a>函数声明</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">function  info(name:string,age:number&#x3D;20):string&#123;</span><br><span class="line">    return name+age</span><br><span class="line">&#125;</span><br><span class="line">console.log(info(&#39;zs&#39;))</span><br></pre></td></tr></table></figure><h6 id="匿名函数"><a href="#匿名函数" class="headerlink" title="匿名函数"></a>匿名函数</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">var newInfo &#x3D; function(a:string,...results:string[]):void&#123;</span><br><span class="line">    console.log(results)</span><br><span class="line">&#125;</span><br><span class="line">newInfo(&#39;1&#39;,&#39;2&#39;,&#39;3&#39;,&#39;4&#39;)</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://bpic.588ku.com/illus_water_img/19/09/25/58f73c994d4a4720b0b6509e076c182f.jpg!/fw/750/quality/99/unsharp/true/compress/true&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -33,12 +37,12 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2020/05/12/hello-world/"/>
-    <id>http://yoursite.com/2020/05/12/hello-world/</id>
-    <published>2020-05-12T03:24:25.880Z</published>
-    <updated>2020-07-29T08:03:44.079Z</updated>
+    <link href="http://yoursite.com/2020/07/29/hello-world/"/>
+    <id>http://yoursite.com/2020/07/29/hello-world/</id>
+    <published>2020-07-29T08:33:37.000Z</published>
+    <updated>2020-07-29T08:51:26.567Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://bpic.588ku.com/illus_water_img/19/09/25/3066d0820899e2be767943c538be60ea.jpg!/fw/750/quality/99/unsharp/true/compress/true" alt=""></p><a id="more"></a><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/>]]></content>
+    <content type="html"><![CDATA[<p><img src="http://bpic.588ku.com/illus_water_img/19/09/25/3066d0820899e2be767943c538be60ea.jpg!/fw/750/quality/99/unsharp/true/compress/true" alt=""></p><a id="more"></a>]]></content>
     
     <summary type="html">
     
@@ -51,13 +55,36 @@
   </entry>
   
   <entry>
+    <title>newPages</title>
+    <link href="http://yoursite.com/2020/07/29/newPages/"/>
+    <id>http://yoursite.com/2020/07/29/newPages/</id>
+    <published>2020-07-29T07:37:00.000Z</published>
+    <updated>2020-07-29T08:33:16.836Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>ECMAScript 2020新特性</title>
     <link href="http://yoursite.com/2020/05/12/newHexoDemo/"/>
     <id>http://yoursite.com/2020/05/12/newHexoDemo/</id>
-    <published>2020-05-12T01:39:05.000Z</published>
-    <updated>2020-07-29T03:39:17.086Z</updated>
+    <published>2020-05-12T01:39:00.000Z</published>
+    <updated>2020-07-29T08:34:19.858Z</updated>
+    
+    <content type="html"><![CDATA[<p>4wrwrwrw</p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;4wrwrwrw&lt;/p&gt;
+
+      
     
     </summary>
     
