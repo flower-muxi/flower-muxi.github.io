@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>flower-muxi</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-29T03:39:04.286Z</updated>
+  <updated>2020-07-29T07:39:02.908Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,21 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>newPages</title>
+    <link href="http://yoursite.com/2020/07/29/newPages/"/>
+    <id>http://yoursite.com/2020/07/29/newPages/</id>
+    <published>2020-07-29T07:37:28.000Z</published>
+    <updated>2020-07-29T07:39:02.908Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="http://yoursite.com/2020/05/12/hello-world/"/>
     <id>http://yoursite.com/2020/05/12/hello-world/</id>
     <published>2020-05-12T03:24:25.880Z</published>
-    <updated>2020-07-29T03:39:04.286Z</updated>
+    <updated>2020-07-29T08:03:44.079Z</updated>
     
-    <content type="html"><![CDATA[<h5>这是我的第一篇博客<h5/>]]></content>
+    <content type="html"><![CDATA[<p><img src="http://bpic.588ku.com/illus_water_img/19/09/25/3066d0820899e2be767943c538be60ea.jpg!/fw/750/quality/99/unsharp/true/compress/true" alt=""></p><a id="more"></a><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/><h5>这是我的第一篇博客<h5/>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h5&gt;这是我的第一篇博客&lt;h5/&gt;
-
-      
+      &lt;p&gt;&lt;img src=&quot;http://bpic.588ku.com/illus_water_img/19/09/25/3066d0820899e2be767943c538be60ea.jpg!/fw/750/quality/99/unsharp/true/compress/true&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
     
     </summary>
     
