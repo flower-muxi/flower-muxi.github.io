@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: flower-muxi
 subtitle: ''
 description: ''
 keywords:
@@ -32,7 +32,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year/:title   # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -103,3 +103,15 @@ deploy:
   repo: git@github.com:flower-muxi/flower-muxi.github.io.git
   branch: master
 
+# 字数统计和阅读时长
+symbols_count_time:
+  symbols: true                # 文章字数统计
+  time: true                   # 文章阅读时长
+  total_symbols: true          # 站点总字数统计
+  total_time: true             # 站点总阅读时长
+
+  # hexo-admin authentification
+admin:
+  username: flower-muxi
+  password_hash: $2a$10$X6rbgNb.2.hgw7wKnAdy5uE3FmZMlRF/pgTLA2BUiaVtzjOo9okie
+  secret: dfe3fw5gf7d1werew1

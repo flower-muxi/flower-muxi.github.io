@@ -1,7 +1,6 @@
+title: ECMAScript 2020新特性
+tags: []
+categories: []
+date: 2020-05-12 09:39:00
 ---
-title: newHexoDemo
-date: 2020-05-12 09:39:05
-# copyright: true
-top: true
-tags:
----
+4wrwrwrw

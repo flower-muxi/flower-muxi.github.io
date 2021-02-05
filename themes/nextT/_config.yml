@@ -204,7 +204,7 @@ site_state: true
 social:
   #GitHub: https://github.com/yourname || fab fa-github
   #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
-  微博: https://weibo.com/yourname || fab fa-weibo
+  微博: https://weibo.com/u/6445591825?is_all=1 || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -275,7 +275,7 @@ post_meta:
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
 symbols_count_time:
-  separated_meta: true
+  separated_meta: false
   item_text_post: true
   item_text_total: false
 
